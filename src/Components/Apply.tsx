@@ -7,9 +7,9 @@ export default function LoginPage() {
   return (
     <div className="flex flex-col items-center justify-center w-full">
       <form
-        className="bg-white mx-auto w-full max-w-sm border p-0.5 shadow-md rounded-md"
+        className="bg-white mx-auto w-full max-w-xl border shadow-md rounded-md py-10 px-8"
       >
-        <div className="p-4">
+        <div className="space-y-6">
           <div>
             <Link href="/" aria-label="Go home" />
             <h1 className="text-xl font-semibold text-center mb-1 mt-2">
